@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/voice_radio_group"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <RadioButton
+                android:id="@+id/voice_alyss"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="alyss"
+                android:checked="true"/>
+            <RadioButton
+                android:id="@+id/voice_jane"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="jane"/>
+            <RadioButton
+                android:id="@+id/voice_oksana"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="oksana"/>
+            <RadioButton
+                android:id="@+id/voice_omazh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="omazh"/>
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/emotion_radio_group"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <RadioButton
+                android:id="@+id/emotion_good"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="good"
+                android:checked="true"/>
+            <RadioButton
+                android:id="@+id/emotion_neutral"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="neutral"/>
+            <RadioButton
+                android:id="@+id/emotion_evil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="evil"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_voice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Talk to me"/>
+
+</FrameLayout>

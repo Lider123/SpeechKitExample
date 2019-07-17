@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SpeechKitExample</string>
+    <string name="oauth_token">OAUTH_TOKEN</string>
+    <string name="folder_id">FOLDER_ID</string>
+</resources>
